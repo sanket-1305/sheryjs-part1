@@ -99,11 +99,19 @@ button{
 
 #heroleft .elem{
     height: 9vw;
+    position: relative;
     /* background-color: red; */
     overflow: hidden;
 }
 
+#heroleft .elem h1:nth-child(1){
+    top:0;
+}
+
 #heroleft .elem h1{
+    position: absolute;
+    top:100%;
+    left:0;
     font-family: 'kajiro';
     line-height: 0.9;
     font-weight: 100;
